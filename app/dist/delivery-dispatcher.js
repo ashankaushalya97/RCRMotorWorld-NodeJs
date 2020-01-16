@@ -9,6 +9,7 @@ var router = express.Router();
 exports.default = router;
 router.get('', function (req, res) {
     database_1.default.query('SELECT * FROM delivery', function (err, results) {
+        // res.send(results);
         res.send(results);
     });
 });

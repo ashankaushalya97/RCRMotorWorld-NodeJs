@@ -5,7 +5,7 @@ var pool  = mysql.createPool({
     port            : 3306,
     user            : 'root',
     password        : 'mysql',
-    database        : 'sample2'
+    database        : 'RCR'
 });
 
 export default pool;
