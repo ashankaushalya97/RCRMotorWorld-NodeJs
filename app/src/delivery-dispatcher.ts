@@ -9,5 +9,5 @@ router.get('',(req, res) => {
       // res.send(results);
       res.send(results);
 
-   } )
-})
+   })
+});
