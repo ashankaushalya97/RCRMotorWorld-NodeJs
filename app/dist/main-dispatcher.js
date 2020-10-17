@@ -10,6 +10,7 @@ var item_dispatcher_1 = __importDefault(require("./item-dispatcher"));
 var order_dispatcher_1 = __importDefault(require("./order-dispatcher"));
 var delivery_dispatcher_1 = __importDefault(require("./delivery-dispatcher"));
 var router = express.Router();
+console.log("test");
 exports.default = router;
 router.use(express.json());
 router.use(cors());
